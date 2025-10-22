@@ -1,0 +1,117 @@
+/* Reset dan style dasar */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #cce7ff; /* biru langit */
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+header {
+    background-color: #99d6ff; /* biru langit cerah */
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    border-bottom: 3px solid #3399ff;
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Verdana', sans-serif;
+}
+
+nav a {
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #003366;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background-color: #e6f2ff;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #3399ff;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Profil */
+.profil-img {
+    display: block;
+    margin: 20px auto;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%; /* bulat */
+    object-fit: cover;
+    border: 4px solid #3399ff;
+}
+
+/* Gallery */
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.gallery img {
+    width: 28%; /* ukuran sedang */
+    border: 3px solid #3399ff;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Form Kontak */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #3399ff;
+}
+
+button {
+    background-color: #3399ff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0066cc;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #99d6ff;
+    margin-top: 30px;
+    border-top: 3px solid #3399ff;
+}
